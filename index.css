@@ -1,0 +1,23 @@
+.FourOFourPage {
+  width: 45%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.FourOFourPage p {
+    text-align: center;
+    font-size: 26px;
+    line-height: 30px;
+}
+.FourOFourPage svg text{
+    font-size: 95px;
+    font-family: Georgia;
+}
+.FourOFourPage path {
+    opacity: .6;
+}
+.FourOFourPage path:first-child {
+    opacity: 1;
+}
+.FourOFourPage path:last-child {
+    opacity: .9;
+}
