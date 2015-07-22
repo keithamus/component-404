@@ -1,23 +1,56 @@
+@import '@economist/component-gridcss';
+
 .FourOFourPage {
-  width: 45%;
+  width: 100%;
   max-width: 1220px;
-  margin: 0 auto;
+  margin: 100px auto 0;
+}
+.FourOFourPage section {
+  margin: 0 24.3%;
+  width: 49.5%;
 }
 .FourOFourPage p {
-    text-align: center;
-    font-size: 26px;
-    line-height: 30px;
+  text-align: center;
+  font-size: 26px;
+  line-height: 30px;
 }
 .FourOFourPage svg text{
-    font-size: 95px;
-    font-family: Georgia;
+  font-size: 95px;
+  font-family: Georgia;
 }
 .FourOFourPage path {
-    opacity: .6;
+  opacity: .6;
 }
 .FourOFourPage path:first-child {
-    opacity: 1;
+  opacity: 1;
 }
 .FourOFourPage path:last-child {
-    opacity: .9;
+  opacity: .9;
+}
+
+@media screen and (max-width: 990px) {
+  .FourOFourPage section {
+    margin: 0 15.9%;
+    width: 66.3%;
+  }
+}
+@media screen and (max-width: 790px) {
+  .FourOFourPage section {
+    margin: 0 7.5%;
+    width: 83.1%;
+  }
+  .FourOFourPage p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .FourOFourPage section {
+    margin: 0 7.5%;
+    width: 83.1%;
+  }
+  .FourOFourPage p {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
