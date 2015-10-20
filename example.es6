@@ -1,5 +1,5 @@
 import React from 'react';
-import FourOFourPage from './index.es6';
+import FourOhFourPage from './index.es6';
 export default (
-  <FourOFourPage />
+  <FourOhFourPage />
 );
