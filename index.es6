@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class FourOhFourPage extends React.Component {
+export default class NotFoundHandler extends React.Component {
 
   render() {
     return (
-      <div className="FourOhFourPage">
+      <div className="NotFoundHandler">
         <section>
           <svg
             version="1.1" id="Layer_1" viewBox="0 0 1190 922"
@@ -13,8 +13,9 @@ export default class FourOhFourPage extends React.Component {
             <g>
               <path
                 fill="#B3B3B3"
-                d={`M488.9,605.8h-94.4v167.5l-91.2,21.2V605.8H3.3V538l300-452.
-                7h92.2v441h93.3V605.8zM303.4,526.3V194.5 L82.9,526.3H303.4z`}
+                d={`M488.9,605.8h-94.4v167.5l-91.2,
+                  21.2V605.8H3.3V538l300-452.7h92.2v441h93.3V605.8zM303.4,
+                  526.3V194.5 L82.9,526.3H303.4z`}
               />
 
               <path

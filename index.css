@@ -1,55 +1,55 @@
 @import '@economist/component-gridcss';
 
-.FourOhFourPage {
+.NotFoundHandler {
   width: 100%;
   max-width: 1220px;
   margin: 100px auto 0;
 }
-.FourOhFourPage section {
+.NotFoundHandler section {
   margin: 0 24.3%;
   width: 49.5%;
 }
-.FourOhFourPage p {
+.NotFoundHandler p {
   text-align: center;
   font-size: 26px;
   line-height: 30px;
 }
-.FourOhFourPage svg text{
+.NotFoundHandler svg text{
   font-size: 95px;
   font-family: Georgia;
 }
-.FourOhFourPage path {
+.NotFoundHandler path {
   opacity: .6;
 }
-.FourOhFourPage path:first-child {
+.NotFoundHandler path:first-child {
   opacity: 1;
 }
-.FourOhFourPage path:last-child {
+.NotFoundHandler path:last-child {
   opacity: .9;
 }
 
 @media screen and (max-width: 990px) {
-  .FourOhFourPage section {
+  .NotFoundHandler section {
     margin: 0 15.9%;
     width: 66.3%;
   }
 }
 @media screen and (max-width: 790px) {
-  .FourOhFourPage section {
+  .NotFoundHandler section {
     margin: 0 7.5%;
     width: 83.1%;
   }
-  .FourOhFourPage p {
+  .NotFoundHandler p {
     font-size: 20px;
     line-height: 26px;
   }
 }
 @media screen and (max-width: 590px) {
-  .FourOhFourPage section {
+  .NotFoundHandler section {
     margin: 0 7.5%;
     width: 83.1%;
   }
-  .FourOhFourPage p {
+  .NotFoundHandler p {
     font-size: 18px;
     line-height: 22px;
   }
