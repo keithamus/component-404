@@ -16,7 +16,7 @@
 }
 .NotFoundHandler svg text{
   font-size: 95px;
-  font-family: Georgia;
+  font-family: var(--notfound-font, Georgia);
 }
 .NotFoundHandler path {
   opacity: .6;
