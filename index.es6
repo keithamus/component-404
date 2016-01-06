@@ -38,7 +38,7 @@ export default class NotFoundHandler extends React.Component {
             <g display="none">
               <text
                 transform="matrix(1 0 0 1 287.6778 895)"
-                font-family="'Georgia'"
+                fontFamily="'Georgia'"
                 display="inline"
                 fill="#FF0000"
               >
