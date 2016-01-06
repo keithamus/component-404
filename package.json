@@ -1,6 +1,6 @@
 {
   "name": "@economist/component-404",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A basic 404 page",
   "author": "The Economist (http://economist.com)",
   "license": "ISC",
@@ -122,7 +122,6 @@
     "watch": "parallelshell 'npm run doc:watch' 'npm run prepublish:watch' 'npm run serve'"
   },
   "dependencies": {
-    "@economist/component-gridcss": "^2.0.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.0"
   },
