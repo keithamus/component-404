@@ -1,53 +1,61 @@
-.NotFoundHandler {
+.not-found {
   width: 100%;
   max-width: 1220px;
   margin: 100px auto 0;
 }
-.NotFoundHandler section {
-  margin: 0 24.3%;
+
+.not-found__wrap {
   width: 49.5%;
+  margin: 0 24.3%;
 }
-.NotFoundHandler p {
-  text-align: center;
+
+.not-found__text {
   font-size: 26px;
   line-height: 30px;
+  text-align: center;
 }
-.NotFoundHandler svg text{
-  font-size: 95px;
+
+.not-found__svg-text {
   font-family: var(--notfound-font, Georgia);
+  font-size: 95px;
 }
-.NotFoundHandler path {
-  opacity: .6;
+
+.not-found__path {
+  opacity: 0.6;
 }
-.NotFoundHandler path:first-child {
+
+.not-found__path:first-child {
   opacity: 1;
 }
-.NotFoundHandler path:last-child {
-  opacity: .9;
+
+.not-found__path:last-child {
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 990px) {
-  .NotFoundHandler section {
-    margin: 0 15.9%;
+  .not-found__wrap {
     width: 66.3%;
+    margin: 0 15.9%;
   }
 }
+
 @media screen and (max-width: 790px) {
-  .NotFoundHandler section {
-    margin: 0 7.5%;
+  .not-found__wrap {
     width: 83.1%;
+    margin: 0 7.5%;
   }
-  .NotFoundHandler p {
+  .not-found__text {
     font-size: 20px;
     line-height: 26px;
   }
 }
+
 @media screen and (max-width: 590px) {
-  .NotFoundHandler section {
-    margin: 0 7.5%;
+  .not-found__wrap {
     width: 83.1%;
+    margin: 0 7.5%;
   }
-  .NotFoundHandler p {
+  .not-found__text {
     font-size: 18px;
     line-height: 22px;
   }

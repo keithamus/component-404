@@ -1,1 +1,8 @@
-{"extends":["strict", "strict/mocha", "strict-react"]}
+{
+  "extends": [
+    "strict",
+    "strict/mocha",
+    "strict-react",
+    "strict/test"
+  ]
+}
